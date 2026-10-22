@@ -1,0 +1,10 @@
+; Sample php.ini - hardened per PHP2Shell advisory interim mitigations.
+; Run: php2shell-defender --ini-file samples/php.ini.hardened-example --manual-version 8.3.36
+[PHP]
+session.upload_progress.enabled = 0
+display_errors = Off
+fatal_error_backtraces = 0
+post_max_size = 16M
+memory_limit = 256M
+expose_php = Off
+log_errors = On

@@ -1,0 +1,10 @@
+; Sample php.ini - deliberately insecure, for demoing php2shell-defender.
+; Run: php2shell-defender --ini-file samples/php.ini.vulnerable-example --manual-version 8.2.30
+[PHP]
+session.upload_progress.enabled = 1
+display_errors = On
+fatal_error_backtraces = 1
+post_max_size = 0
+memory_limit = -1
+expose_php = On
+log_errors = Off

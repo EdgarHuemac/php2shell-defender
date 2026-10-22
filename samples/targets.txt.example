@@ -1,0 +1,5 @@
+# One target URL per line. Lines starting with # are ignored.
+# Each line triggers exactly one ordinary GET request -- nothing adversarial.
+https://app1.example.internal/
+https://app2.example.internal/
+https://app3.example.internal/
